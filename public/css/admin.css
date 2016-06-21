@@ -1,0 +1,39 @@
+.input-group-addon, .input-group-btn {vertical-align: bottom;}
+.input-group[class*=col-] {padding-right: 15px;padding-left: 15px;float: left;}
+.form-group.required > label:after {content: '*'; color: red;font-weight: 900;}
+.delete {margin-left: 10px}
+.divider {display: none;}
+.breadcrumb {margin: 0;position: relative;top: 20px;position: relative;z-index: 9;}
+.actions {margin-bottom: 25px;}
+.input-group-addon {padding: 9px 12px 9px;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  vertical-align: middle;
+}
+.info {padding: 3px 7px;background: #ddd;border-radius: 50%;font-size: 12px;cursor: pointer;}
+.space {margin: 0 15px;}
+.show-fields-user {margin-top: 25px;}
+.field-disabled{display: none;}
+.delete-product {margin-left: 5px;}
+.cliente-pedido {margin: 20px -15px;border-top: 1px solid #DDD;padding: 15px 0 0;}
+.cliente-pedido .label-primary {display: table; margin-bottom: 15px; padding: 4px;}
+@media (min-width: 768px){
+    .produto-half-modal .modal-dialog, .produto-modal .modal-dialog, .estoque-ped-modal .modal-dialog {width: 800px;}
+}
+.btn-pedido {margin-left: 10px;}
+.box-qtd {max-width: 150px;margin: 0 auto;}
+.btn-down, .btn-up {cursor: pointer;}
+.box-qtd input{text-align: center;}
+.prod-ped-plus, .prod-ped-minus, .prod-ped-half {display: none;}
+.td-prod label {display: block;width: 120px;}
+.td-prod label i {float: right;cursor: pointer;}
+.produtos-pedido th {width: 25%;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {background-color: transparent;}
+.dropdown-messages .label-success{position: relative; z-index: -1;}
+.estoque-ped-info table th {width: 25%;}
+.finish-price {font-size: 30px;display: block;margin: 20px 0;}
+#config-tabs {margin-bottom: 15px;}
+.alterar-senha {margin-top: 25px;}
+.loading {width: 100%;height: 100%;position: fixed;background: rgba(0,0,0,0.6);z-index: 9999;display: none;}
+.loading__icon {position: absolute;top: 50%;left: 50%;font-size: 100px;color: #fff;margin: -50px 0 0 -50px;}
+.filters {border-top: 1px solid #EEE;border-bottom: 1px solid #EEE;padding: 15px 0 10px;margin-bottom: 20px;}
+.form-group-no-label {margin-top: 25px;}
